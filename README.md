@@ -39,7 +39,7 @@ A simple **Flappy Bird** clone built using **HTML5 Canvas** and **Vanilla JavaSc
 
 ## 🖼 Screenshot
 
-![Gameplay Screenshot](screenshot.png) *(Add your own screenshot here if you like)*
+![Gameplay Screenshot]([screenshot.png](https://github.com/GayatriSutar2004/FlappyBirdGame-HTML-JavaScript/blob/main/Screenshot%202026-02-23%20110020.png)) *(Add your own screenshot here if you like)*
 
 ---
 
