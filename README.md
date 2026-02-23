@@ -1,88 +1,117 @@
-# HTML-JavaScript
-JS and HTML project
+# 🐤 Flappy Bird Clone – HTML5 Canvas & JavaScript
 
+A fully functional Flappy Bird Clone built using HTML5 Canvas and Vanilla JavaScript.
 
-# 🐤 Flappy Bird Clone - JavaScript Game
-
-A simple **Flappy Bird** clone built using **HTML5 Canvas** and **Vanilla JavaScript**. This project is a fun implementation of basic game development concepts including sprite movement, collision detection, gravity simulation, and event handling.
+This project demonstrates core game development principles such as real-time rendering, gravity simulation, collision detection, event handling, and dynamic obstacle generation — all without using external libraries.
 
 ---
 
-## 🎮 How to Play
+## 🎮 Gameplay Preview
 
-- Press `Space`, `Arrow Up`, `X`, or `Enter` to make the bird jump.
-- Avoid the pipes.
-- The game ends if the bird hits a pipe or falls off the screen.
-- Press `Enter` or any jump key again to restart the game.
+![Gameplay Screenshot 1](https://github.com/GayatriSutar2004/FlappyBirdGame-HTML-JavaScript/blob/main/Screenshot%202026-02-23%20110020.png)
+
+![Gameplay Screenshot 2](https://github.com/GayatriSutar2004/FlappyBirdGame-HTML-JavaScript/blob/main/Screenshot%202026-02-23%20110329.png)
+
+![Gameplay Screenshot 3](https://github.com/GayatriSutar2004/FlappyBirdGame-HTML-JavaScript/blob/main/Screenshot%202026-02-23%20110038.png)
+
+---
+
+## 🎯 How to Play
+
+- Press Space, Arrow Up, or X to make the bird jump.
+- Avoid hitting the pipes.
+- The game ends if:
+  - The bird collides with a pipe
+  - The bird falls off the screen
+- Press Enter to restart the game.
 
 ---
 
 ## 🚀 Features
 
 - Smooth gravity-based movement
+- Real-time collision detection
 - Randomly generated pipes
-- Collision detection
-- Score tracking
-- Basic game reset functionality
+- Continuous game loop using requestAnimationFrame()
+- Dynamic score tracking
+- Restart functionality without reloading the page
+- Responsive canvas layout
 
 ---
 
-## 📁 Project Files
+## 🧠 Concepts Used
 
-- `index.html` – Main HTML file containing the canvas element.
-- `game.js` – JavaScript logic for game loop, physics, collision detection, and UI.
-- `flappybird.png` – Sprite for the bird.
-- `toppipe.png` – Image for the upper pipe.
-- `bottompipe.png` – Image for the lower pipe.
-
----
-
-## 🖼 Screenshot
-
-![Gameplay Screenshot]
-
-([screenshot.png](https://github.com/GayatriSutar2004/FlappyBirdGame-HTML-JavaScript/blob/main/Screenshot%202026-02-23%20110020.png) [screenshot.png](https://github.com/GayatriSutar2004/FlappyBirdGame-HTML-JavaScript/blob/main/Screenshot%202026-02-23%20110038.png) *(Add your own screenshot here if you like)*
+- HTML5 Canvas rendering
+- 2D game loop architecture
+- Physics simulation (gravity and velocity)
+- Object-based design in JavaScript
+- Event listeners for keyboard input
+- Array manipulation for dynamic obstacles
 
 ---
 
-## 🛠 Requirements
+## 📁 Project Structure
 
-- A modern web browser (Chrome, Firefox, Edge, etc.)
-- No additional libraries required
-
----
-
-## ▶️ How to Run
-
-1. Clone the repository or download the files.
-2. Make sure the following files are in the same folder:
-   - `index.html`
-   - `game.js`
-   - `flappybird.png`
-   - `toppipe.png`
-   - `bottompipe.png`
-3. Open `index.html` in your browser.
-4. Start playing!
+FlappyBirdGame-HTML-JavaScript/
+│
+├── index.html
+├── game.js
+├── flappybird.png
+├── toppipe.png
+├── bottompipe.png
+└── README.md
 
 ---
 
-## 💡 Future Improvements (Optional Ideas)
+## 🛠 Technologies Used
 
-- Add sound effects
-- Improve graphics with animations
-- Add difficulty levels
-- Create a mobile version
-- Add high score tracking
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- HTML5 Canvas API
+
+No frameworks. No external libraries.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone the repository:
+   git clone https://github.com/GayatriSutar2004/FlappyBirdGame-HTML-JavaScript.git
+
+2. Open the project folder.
+
+3. Make sure all files are in the same directory:
+   - index.html
+   - game.js
+   - flappybird.png
+   - toppipe.png
+   - bottompipe.png
+
+4. Open index.html in your browser.
+
+Start playing 🎮
+
+---
+
+## 💡 Future Improvements
+
+- Add sound effects and background music
+- High score tracking using LocalStorage
+- Mobile touch support
+- Difficulty levels
+- Animated sprites
+- Deploy live using GitHub Pages
 
 ---
 
 ## 🧑‍💻 Author
 
-This project was created by **[Your Name]** as part of learning JavaScript and canvas-based game development.
+Gayatri Sutar  
+Front-End & JavaScript Developer
 
 ---
 
 ## 📜 License
 
-This project is free to use and modify for learning purposes.
-
+This project is open-source and free to use for learning purposes.
